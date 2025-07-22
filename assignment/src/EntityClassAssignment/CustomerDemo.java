@@ -1,4 +1,4 @@
-package DAY2.NTT;
+package EntityClassAssignment;
 
 public class CustomerDemo
 {
