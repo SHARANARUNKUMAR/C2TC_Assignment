@@ -10,7 +10,6 @@ public class StudentClass {
 		sc.setDept("ECE");
 		System.out.println(sc);
 		
-
-	}
+}
 
 }
