@@ -5,19 +5,28 @@ public class Customer {
 	private String customerName;
 	private int customerId;
 	private String customerCity;
+//parameterize constructor
 
-//	public Customer() {
-//		System.out.println("default Customer");
-//	}
+
 	
 	public Customer()
 	{
-		this.customerName="Sharan";
-		this.customerId=20112004;
-		this.customerCity="Pondicherry";
+		System.out.println("default constructor");
 	}
+public Customer(int customerId,String customerName)
+{
+		System.out.println("2parameter");
+		this.customerId=customerId;
+		this.customerName=customerName;
+}
+	//parameterized constructor
+public Customer(int customerId,String customerName,String customerCity) {
+	this(103,"Sharan"); //invoke or call the default constructor
+	this.customerId=customerId;
+	this.customerName=customerName;
+	this.customerCity=customerCity;
 	
-	
+}
 	@Override
 	public String toString() {
 		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
