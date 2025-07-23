@@ -1,4 +1,4 @@
-package Student_Assignment;
+package encapsulation;
 
 public class Student
 {
