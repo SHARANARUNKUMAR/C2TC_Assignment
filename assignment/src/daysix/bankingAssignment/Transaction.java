@@ -1,4 +1,4 @@
-package Assignment.daysix.bankingAssignment;
+package daysix.bankingAssignment;
 
 public class Transaction {
 private final double transactionFee = 10.0;

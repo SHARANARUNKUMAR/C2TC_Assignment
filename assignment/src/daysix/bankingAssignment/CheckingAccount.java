@@ -1,16 +1,14 @@
-package Assignment.daysix.bankingAssignment;
-
-public class SavingsAccount extends Account{
-	private static final double intrestRate = 0.03;
+package daysix.bankingAssignment;
+public class CheckingAccount extends Account{
 	
-	public SavingsAccount(String name, double balance) {
+	public CheckingAccount(String name, double balance) {
 		super(name, balance);
 	}
 
 	@Override
 	public void deposit(double amount) {
 		// TODO Auto-generated method stub
-		balance += amount + (amount * intrestRate);
+		balance += amount;
 		
 	}
 
@@ -20,7 +18,7 @@ public class SavingsAccount extends Account{
 		if(balance >= amount) {
 			balance -= amount;
 		} else {
-			System.out.println("Insufficient funds in SavingsAccount.");
+			System.out.println("Insufficient funds in CheckingAccount.");
 		}
 		
 	}
@@ -30,6 +28,4 @@ public class SavingsAccount extends Account{
 		// TODO Auto-generated method stub
 		return balance;
 	}
-	
-	
 }

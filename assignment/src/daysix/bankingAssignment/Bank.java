@@ -1,4 +1,4 @@
-package Assignment.daysix.bankingAssignment;
+package daysix.bankingAssignment;
 
 
 
