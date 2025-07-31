@@ -8,10 +8,5 @@ public class MarkInterfaceDemo {
 				System.out.println("Student is registered for the course");
 			else
 				System.out.println("Student is not registered for the course");
-				
-
 		}
-
-	
-
 }
