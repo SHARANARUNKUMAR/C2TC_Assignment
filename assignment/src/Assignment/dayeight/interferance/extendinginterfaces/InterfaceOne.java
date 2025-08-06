@@ -1,6 +1,7 @@
 package Assignment.dayeight.interferance.extendinginterfaces;
 
-	interface InterfaceOne
+	interface InterfaceOne 
+	
 	{  
 		  void print();  
 	}

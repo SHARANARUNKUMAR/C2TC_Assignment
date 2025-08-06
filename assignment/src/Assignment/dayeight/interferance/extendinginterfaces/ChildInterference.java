@@ -1,6 +1,6 @@
 package Assignment.dayeight.interferance.extendinginterfaces;
 
-public class ChildInterference  extends InterfaceOne
+public class ChildInterference implements InterfaceOne
 {
 	void show();
 }
